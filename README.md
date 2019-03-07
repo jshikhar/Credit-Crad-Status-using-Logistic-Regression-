@@ -1,4 +1,4 @@
-# Data-Science
+# Credit Card Status using Logistic Regression
 Predicting Weather to issue a credit card to the person using logistic regression. This Project includes 
 1. Combining Various data sets to form one master data set 
 2. Detecting and treating outliers 
