@@ -47,7 +47,7 @@ x[x > (qnt[2] + H)] <- (qnt[2] + H)
 data_CC$RiskScore<-x
 
 
-## CONVERTUNG RESPONSE VARIKE TO FACTOR TYPE 
+## CONVERTUNG RESPONSE VARIABLE TO FACTOR TYPE 
 data_CC$card_offer<-factor(data_CC$card_offer)
 class(data_CC$card_offer)
 
@@ -117,7 +117,7 @@ as.numeric(logit_auc@y.values)  ##AUC Value
 logit_ks <- max(logit_perf@y.values[[1]]-logit_perf@x.values[[1]])
 logit_ks
 
-## LCalculating the Lift
+## Calculating the Lift
 
 # Since the base is 0,creating the probablity for class 1
 combined_data$predictions_1<-1-combined_data$predictions
